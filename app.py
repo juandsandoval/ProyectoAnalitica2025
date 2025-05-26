@@ -95,7 +95,7 @@ def cargar_modelos():
 def cargar_datos_cluster():
     df_pca_final = pd.read_csv("df_pca_final_kmeans.csv")
     df_pca = pd.read_csv("df_pca_final_kproto.csv")
-    df_original = pd.read_csv(r"C:\Users\ju444\OneDrive\Documents\Proyecto Analitica 2025-1\Video_Games_Sales_as_at_22_Dec_2016 (1).csv")
+    df_original = pd.read_csv("Video_Games_Sales_as_at_22_Dec_2016 (1).csv")
     return df_pca_final, df_pca, df_original
 
 # Cargar datos y modelos una vez
